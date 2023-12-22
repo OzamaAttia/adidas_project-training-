@@ -5,6 +5,10 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+*::selection {
+    background-color: #002a1f9f;
+    color: white;
+}
 body {
     font-family: 'Cairo', sans-serif;
     text-transform: capitalize;
@@ -15,7 +19,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 } */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .container {
         width: 1150px;
     }
@@ -29,7 +33,7 @@ body {
     .container {
         width: 750px;
     }
-}
+} */
 a {
     text-decoration: none;
 }
