@@ -31,7 +31,6 @@ body {
     }
 }
 a {
-    color: white;
     text-decoration: none;
 }
 ul {
@@ -70,21 +69,20 @@ header .container .head {
     padding: 20px 50px;
 }
 header .container .head .logo a {
-    font-size: 30px;
+    font-size: 35px;
     text-transform: lowercase;
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #ececec;
     filter: drop-shadow(2px 4px 10px black);
-
 }
 header .container .head nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 header .container .head nav ul li {
-    padding: 20px 10px;
+    padding-top: 35px;
     transition: .3s;
 }
 header .container .head nav ul li a {
@@ -121,7 +119,7 @@ header .container .content .text h2 span{
     color: #ae98ac;
 }
 header .container .content .text p {
-    margin-top: 20px;
+    margin-top: 25px;
     color: #ececec;
     line-height: 1.5;
 }
@@ -140,8 +138,8 @@ header .container .content .image img:hover {
 }
 @media (max-width: 767px) {
     header{
-    padding-top: 60px;
-    padding-bottom: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     header::before {
         right:initial;
@@ -152,12 +150,12 @@ header .container .content .image img:hover {
     }
     header .container .head {
         flex-wrap: wrap;
-        padding: 0;
+        padding: 20px 0px;
     }
     header .container .head .logo {
         flex: 1 1 100%;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 20px;
     }
     header .container .head nav {
         flex: 1 1 100%;
@@ -166,24 +164,27 @@ header .container .content .image img:hover {
         flex-wrap: wrap;
     }
     header .container .head ul li {
-        padding: 20px 5px;
+        /* padding: 35px 8px 0; */
     }
     header .container .content {
         flex-flow: column wrap;
-        padding: 10px 15px;
+        padding: 50px 20px;
     }
     header .container .content .text h2 {
-        font-size: 45px;
+        font-size: 55px;
     }
 }
 @media (min-width: 768px){
     header {
         height: 100vh;
     }
+    header .container .head ul li {
+        padding: 35px 10px 0;
+    }
 }
 @media (min-width: 1200px) {
     header .container .head {
-        padding-top: 40px;
+        padding-top: 20px;
     }
     header .container .head .logo a {
         font-size: 40px;
@@ -204,7 +205,6 @@ header .container .content .image img:hover {
 @media (min-width: 1500px) {
     .container {
         max-height: 760px;
-        /* max-height: 90%; */
         padding-left: 60px;
         padding-right: 60px;
         padding-top: 30px;
@@ -239,6 +239,4 @@ header .container .content .image img:hover {
         bottom: -40%;
     }
 }
-
-
 /* end header */
