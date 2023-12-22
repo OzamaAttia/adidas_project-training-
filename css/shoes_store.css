@@ -43,7 +43,7 @@ ul {
 /* start header */
 header {
     color: white;
-    background-image: linear-gradient(to right, black , #303030);
+    background-image: linear-gradient(to right, #002a1f , black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,18 +59,25 @@ header::before {
     border-radius: 50%;
     right: -20%;
     bottom: -30%;
+    filter: drop-shadow(0 0 3px #bcabbb14);
 }
 header .container {
-    background-color: #ffffff16;
+    background-color: #00000026;
     width: 85%;
     border-radius: 20px;
     position: relative;
+    box-shadow: 0 0 8px -5px black, inset 0 0 8px -5px #002a1f;
 }
 header .container .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+}
+header .container .head .logo {
+    flex-basis: 12%;
+    text-align: center;
+  
 }
 header .container .head .logo a {
     font-size: 35px;
@@ -79,6 +86,23 @@ header .container .head .logo a {
     letter-spacing: 1.5px;
     color: #ececec;
     filter: drop-shadow(2px 4px 10px black);
+}
+header .container .head .logo:hover a {
+    animation: adidas 1s;
+}
+@keyframes adidas {
+    0% {
+        letter-spacing: 1.5px; 
+    }
+    33% {
+        letter-spacing: 3.5px;
+    }
+    66% {
+        letter-spacing: -3.5px;
+    }
+    100% {
+        letter-spacing: 1.5px;
+    }
 }
 header .container .head nav ul {
     display: flex;
@@ -90,7 +114,7 @@ header .container .head nav ul li {
     transition: .3s;
 }
 header .container .head nav ul li a {
-    color: #ececec;
+    color: #b6a1b5;
     transition: .3s;
 }
 header .container .head nav ul li:hover{
@@ -101,7 +125,6 @@ header .container .head nav ul li:hover a{
     border-bottom: 1px solid #c2aec0;
     transform: scale(1.1);
     filter: drop-shadow(0 0 1px black);
-
 }
 header .container .content {
     display: flex;
@@ -124,7 +147,7 @@ header .container .content .text h2 span{
 }
 header .container .content .text p {
     margin-top: 25px;
-    color: #ececec;
+    color: #b7a5b6;
     line-height: 1.5;
 }
 header .container .content .image {
@@ -249,4 +272,5 @@ header .container .content .image img:hover {
         bottom: -40%;
     }
 }
+
 /* end header */
