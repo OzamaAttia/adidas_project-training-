@@ -140,8 +140,8 @@ header .container .content .image img:hover {
 }
 @media (max-width: 767px) {
     header{
-        padding-top: 30px;
-        padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     }
     header::before {
         right:initial;
