@@ -78,7 +78,7 @@ header .container .head .logo a {
 }
 header .container .head nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 header .container .head nav ul li {
@@ -160,11 +160,13 @@ header .container .content .image img:hover {
     header .container .head nav {
         flex: 1 1 100%;
     }
-    header .container .head ul {
+    header .container .head ul{
         flex-wrap: wrap;
     }
     header .container .head ul li {
-        /* padding: 35px 8px 0; */
+        margin: auto;
+        margin: auto;
+        
     }
     header .container .content {
         flex-flow: column wrap;
@@ -177,6 +179,10 @@ header .container .content .image img:hover {
 @media (min-width: 768px){
     header {
         height: 100vh;
+    }
+    header .container nav {
+        position: relative;
+        transform: translateY(-30%);
     }
     header .container .head ul li {
         padding: 35px 10px 0;
