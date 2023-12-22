@@ -77,7 +77,10 @@ header .container .head {
 header .container .head .logo {
     flex-basis: 12%;
     text-align: center;
-  
+}
+header .container .head .logo a::selection,
+header .container .content .image img::selection {
+    background-color: transparent;
 }
 header .container .head .logo a {
     font-size: 35px;
