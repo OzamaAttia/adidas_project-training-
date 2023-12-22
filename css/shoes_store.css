@@ -126,6 +126,9 @@ header .container .head nav ul li:hover a{
     transform: scale(1.1);
     filter: drop-shadow(0 0 1px black);
 }
+header .container .head nav ul li:last-of-type a {
+    text-decoration: line-through;
+}
 header .container .content {
     display: flex;
     justify-content: space-between;
