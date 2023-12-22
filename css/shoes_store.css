@@ -151,7 +151,7 @@ header .container .content .image img:hover {
         bottom: -60%;
     }
     header .container {
-        height: 90%;
+        height: 95%;
     }
     header .container .head {
         flex-wrap: wrap;
@@ -190,7 +190,7 @@ header .container .content .image img:hover {
         font-size: 20px;
     }
     header .container .content .image img {
-        width: 400px;
+        width: 300px;
     }
     header .container .content .text h2 {
         font-size: 50px;
