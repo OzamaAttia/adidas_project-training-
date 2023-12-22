@@ -199,11 +199,11 @@ header .container .content .image img:hover {
     header .container .head ul li {
         margin: auto;
         margin: auto;
-        
     }
     header .container .content {
         flex-flow: column wrap;
         padding: 50px 20px;
+        margin-top: 20px;
     }
     header .container .content .text h2 {
         font-size: 55px;
