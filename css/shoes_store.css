@@ -150,8 +150,11 @@ header .container .content .image img:hover {
         right:initial;
         bottom: -60%;
     }
+    header .container {
+        height: 90%;
+    }
     header .container .head {
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         padding: 20px 0px;
     }
     header .container .head .logo {
@@ -163,7 +166,7 @@ header .container .content .image img:hover {
         flex: 1 1 100%;
     }
     header .container .head ul {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     header .container .head ul li {
         padding: 20px 5px;
