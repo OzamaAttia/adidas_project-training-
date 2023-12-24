@@ -217,7 +217,7 @@ header .container .content .image img:hover {
     }
     header .container .head ul li {
         margin: auto;
-        margin: auto;
+        padding-top: 15px;
     }
     header .container .content {
         flex-flow: column wrap;
